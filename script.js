@@ -53,7 +53,7 @@ function takeCommand(message) {
     if (message.includes("hello") || message.includes("hey") || message.includes("hi")) {
         speak("Hello Sir what can i help you?")
     }
-    else if (message.includes("Who are you?") || (message.includes("Tum kaun ho?"))) {
+    else if (message.includes("Who are you") || (message.includes("Tum kaun ho"))) {
         speak("I am a virtual assistant made by Absar Sir")
     } else if (message.includes("Open Youtube")) {
         speak("Opening youtube")
